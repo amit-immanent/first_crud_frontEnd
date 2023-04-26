@@ -6,7 +6,7 @@ import { toast } from 'react-toastify'
 
 const Header = () => {
 
-    const { isLogedIn } = useSelector((state) => state.value)
+    const {isLogedIn} = useSelector((state)=> state.user.value)
     const dispatch = useDispatch()
 
     const handleLogout = () => {

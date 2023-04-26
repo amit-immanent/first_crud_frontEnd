@@ -9,7 +9,7 @@ import { setIsLogedIn } from '../Redux/reducers'
 
 const Login = () => {
 
-const {isLogedIn} = useSelector((state)=> state.value)
+    const {isLogedIn} = useSelector((state)=> state.user.value)
 
 console.log(isLogedIn,"isLogedInisLogedIn");
 const dispatch =  useDispatch()

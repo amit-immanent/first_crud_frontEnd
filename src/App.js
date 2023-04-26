@@ -14,7 +14,10 @@ import { useSelector } from 'react-redux';
 
 function App() {
 
-const {isLogedIn} = useSelector((state)=> state.value)
+const {isLogedIn} = useSelector((state)=> state?.user?.value)
+
+
+  
 
 const router = createBrowserRouter(
   createRoutesFromElements(
