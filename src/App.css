@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #FBEAFF
+}
+.navbar{
+  background-color: #845EC2 !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.navbar-toggler{
+  background-color: white;
+}
+.login-form{
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #C4FCEF;
+}
+.heading-text{
+  background-color: rgb(0, 0, 0);
+  width: max-content;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 12px;
+  padding: 5px;
+  color: azure;
+  box-shadow: 0px  0px 8px 8px #C493FF;
+  
+}
